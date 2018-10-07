@@ -118,3 +118,9 @@ p:last-child {
   padding-bottom: 0;
   line-height: 1em;
 }
+
+
+/* ACCORDION COMPONENT */
+.accordion-toggle {
+  display: block;
+}
