@@ -26,7 +26,34 @@ p:last-child {
   }
 }
 
-
+.main_container_slider {
+  position: relative;
+}
+.main_container_slider .tns-controls button {
+  border: none;
+  background-color: red;
+  text-indent: -999px;
+  overflow: hidden;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  padding: 0;
+}
+.main_container_slider .tns-controls {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  left: 0;
+}
+.main_container_slider .tns-controls button:last-child {
+  float: right;
+}
+.main_container_slider .tns-nav {
+  text-align: center;
+  font-size: 0;
+  margin-top: 45px;
+}
 .main_container_slider .tns-nav button {
   display: inline-block;
   width: 16px;
@@ -58,7 +85,7 @@ p:last-child {
   background-color: #f3f6f9;
 }
 .three_slider_section .tns-ovh {
-  max-width: 1000px;
+  width: 85%;
   margin: auto;
 }
 .executive_info_wrapper .executive_profile {
